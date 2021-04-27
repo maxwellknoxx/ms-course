@@ -49,7 +49,7 @@ public class WorkerResource {
 	public ResponseEntity<Worker> findById(@PathVariable Long id) {
 
 		try {
-			Thread.sleep(3000L);
+			Thread.sleep(300L);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
